@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #d7e4c0;
+}
+
+.title {
+  text-align: center;
+}
+
+.filterbox {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin: 5px;
+  outline: none;
+}
+
+.input:hover {
+  box-shadow: 0 2px 2px gray inset;
+}
+
+.input:focus {
+  background-color: honeydew;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.person {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: white;
+}
+
+.person:hover {
+  box-shadow: 0 2px 2px gray inset;
+}
